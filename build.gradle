@@ -29,7 +29,7 @@ dependencies {
 }
 
 tomcatRun {
-    contextPath = ""
+    contextPath = "/"
     httpPort = 8080
     File file = new File("src/main/webapp/WEB-INF/web.xml");
     configFile = file
