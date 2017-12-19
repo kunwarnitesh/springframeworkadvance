@@ -18,7 +18,7 @@ repositories {
 
 dependencies {
     providedCompile 'javax.servlet:servlet-api:2.5', 'javax.servlet:jsp-api:2.0'
-//    compile "org.springframework:spring-context:4.2.5.RELEASE"
+    compile "org.springframework:spring-context:4.2.5.RELEASE"
     compile 'org.springframework:spring-aspects:4.2.5.RELEASE'
     compile 'org.springframework:spring-webmvc:4.2.5.RELEASE'
     compile 'org.hibernate:hibernate-validator:4.2.0.Final'
